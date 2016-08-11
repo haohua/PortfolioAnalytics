@@ -81,5 +81,5 @@ group.cvar.port$cLO <- rep(0.15,length(groups))
 group.cvar.port$cUP <- rep(0.30,length(groups))
 group.cvar.port$objectives[[1]]$enabled <- TRUE
 group.cvar.port$objectives[[3]]$enabled <- TRUE
-group.cvar.solution <- optimize.portfolio(R=edhec, constraints=group.cvar.port, optimize_method="ROI", maxSTARR=FALSE)
+group.cvar.solution <- optimize.portfolio(R=edhec, constraints=group.cvar.port, optimize_method="ROI", maxSTARR=FALSE) 
 
